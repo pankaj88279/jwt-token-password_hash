@@ -8,6 +8,7 @@ require('dotenv').config();
 app.use(express.json());
 
 app.use(adminRoute)
+
 app.use(loginRoute)
 const port=process.env.PORT
 

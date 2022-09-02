@@ -3,8 +3,6 @@
 const {mongoose } = require("../config/db");
 
  
- 
- 
  let userSchema= new mongoose.Schema({ 
                              name: {
                             type: String,
